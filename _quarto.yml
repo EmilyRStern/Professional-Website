@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 format:
   html:
@@ -22,7 +23,7 @@ website:
               text: "CV"
               href: about.html
             - icon: pin-map-fill
-              text: "UFO Sightings"
+              text: "UFO Sightings Project"
               href: UFOs.html 
             - icon: github
               text: "Github"
