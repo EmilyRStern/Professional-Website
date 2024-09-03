@@ -1,0 +1,29 @@
+project:
+  type: website
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+website:
+  navbar:
+      pinned: TRUE
+      search: TRUE
+      collapse: false
+      right:
+        - text: "<b>Menu<b>"
+          menu:
+            - icon: house-door-fill
+              text: "Home"
+              href: index.html
+            - icon: card-text
+              text: "CV"
+              href: about.html
+            - icon: pin-map-fill
+              text: "UFO Sightings"
+              href: UFOs.html 
+            - icon: github
+              text: "Github"
+              href: "https://github.com/EmilyRStern/"
