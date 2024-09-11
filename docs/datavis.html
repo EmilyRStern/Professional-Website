@@ -66,6 +66,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -157,8 +158,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Contents</h2>
    
+  <ul>
+  <li><a href="#assignment-1" id="toc-assignment-1" class="nav-link active" data-scroll-target="#assignment-1">Assignment 1</a>
   <ul class="collapse">
-  <li><a href="#assignment-1" id="toc-assignment-1" class="nav-link active" data-scroll-target="#assignment-1">Assignment 1</a></li>
+  <li><a href="#anscombe-example-fancy" id="toc-anscombe-example-fancy" class="nav-link" data-scroll-target="#anscombe-example-fancy">Anscombe Example (Fancy)</a></li>
+  <li><a href="#generative-art" id="toc-generative-art" class="nav-link" data-scroll-target="#generative-art">Generative Art</a></li>
+  <li><a href="#fall-leaves" id="toc-fall-leaves" class="nav-link" data-scroll-target="#fall-leaves">Fall Leaves</a></li>
+  <li><a href="#chart-critique" id="toc-chart-critique" class="nav-link" data-scroll-target="#chart-critique">Chart Critique</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -210,10 +217,10 @@ details summary h2 {
 <details>
 <summary>
 <section id="assignment-1" class="level2">
-<h2 data-anchor-id="assignment-1">Assignment 1</h2>
+<h2 class="anchored" data-anchor-id="assignment-1">Assignment 1</h2>
 </section></summary>
-<section id="anscombe-example" class="level3">
-<h3 data-anchor-id="anscombe-example">Anscombe Example</h3>
+<section id="anscombe-example-fancy" class="level3">
+<h3 class="anchored" data-anchor-id="anscombe-example-fancy">Anscombe Example (Fancy)</h3>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
@@ -327,7 +334,7 @@ x4          0.4999091  0.1178189 4.243028 0.002164602</code></pre>
 </div>
 </section>
 <section id="generative-art" class="level3">
-<h3 data-anchor-id="generative-art">Generative Art</h3>
+<h3 class="anchored" data-anchor-id="generative-art">Generative Art</h3>
 <div class="grid">
 <div class="g-col-4">
 <div class="figure-container" style="width">
@@ -362,7 +369,7 @@ x4          0.4999091  0.1178189 4.243028 0.002164602</code></pre>
 </div>
 </section>
 <section id="fall-leaves" class="level3">
-<h3 data-anchor-id="fall-leaves">Fall Leaves</h3>
+<h3 class="anchored" data-anchor-id="fall-leaves">Fall Leaves</h3>
 <div class="cell">
 <details class="code-fold">
 <summary>Show the code</summary>
@@ -439,7 +446,7 @@ x4          0.4999091  0.1178189 4.243028 0.002164602</code></pre>
 </div>
 </section>
 <section id="chart-critique" class="level3">
-<h3 data-anchor-id="chart-critique">Chart Critique</h3>
+<h3 class="anchored" data-anchor-id="chart-critique">Chart Critique</h3>
 <div class="figure-container">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -478,6 +485,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
