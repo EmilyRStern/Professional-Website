@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Emily Stern",
     "section": "",
-    "text": "Hello! This is where I’m keeping my projects.\nIt’s kinda wack currently but we shall endure.\nClick on “menu” to the top right to check out some of my stuff!"
+    "text": "Hello! This is where I’m keeping my projects.\nClick on “menu” to the top right to check out some of my stuff!"
   },
   {
     "objectID": "UFOs.html",
@@ -26,5 +26,19 @@
     "title": "A Century of Sightings: UFO’s in America since 1925",
     "section": "US Sightings with Custom Range Slider",
     "text": "US Sightings with Custom Range Slider"
+  },
+  {
+    "objectID": "datavis.html",
+    "href": "datavis.html",
+    "title": "Data Visualization Assignments",
+    "section": "",
+    "text": "This page contains assignments for my Data Visualization class.\nClick on the assignment heading to hide/reveal content."
+  },
+  {
+    "objectID": "datavis.html#assignment-1",
+    "href": "datavis.html#assignment-1",
+    "title": "Data Visualization Assignments",
+    "section": "Assignment 1",
+    "text": "Assignment 1"
   }
 ]

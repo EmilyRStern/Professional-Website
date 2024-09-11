@@ -6,7 +6,10 @@ format:
   html:
     theme: cosmo
     css: styles.css
+    toc-title: Contents
     toc: true
+    toc-depth: 3
+    toc-location: right
 
 website:
   navbar:
@@ -25,6 +28,9 @@ website:
             - icon: pin-map-fill
               text: "UFO Sightings Project"
               href: UFOs.html 
+            - icon: bar-chart-fill
+              text: "Data Visualization"
+              href: datavis.html 
             - icon: github
               text: "Github"
               href: "https://github.com/EmilyRStern/"

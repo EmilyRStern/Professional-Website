@@ -6,6 +6,4 @@ theme: Flatly
 
 Hello! This is where I'm keeping my projects.
 
-It's kinda wack currently but we shall endure.
-
 Click on "menu" to the top right to check out some of my stuff!

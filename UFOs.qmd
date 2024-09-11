@@ -15,9 +15,9 @@ library(leaflet.extras2)
 library(sf)
 
 
-unique_sightings <- read.csv("data/us_ufo_sightings")
+unique_sightings <- read.csv("data/ufo_sightings/us_ufo_sightings")
 
-us_regions <- read.csv("data/census_US_regions.csv")
+us_regions <- read.csv("data/ufo_sightings/census_US_regions.csv")
 
 min(unique_sightings$reported_date_time)
 max(unique_sightings$reported_date_time)
